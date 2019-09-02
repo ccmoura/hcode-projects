@@ -118,11 +118,4 @@ class User {
       }
     });
   }
-  getUsersStorage() {
-    let users = [];
-    if (localStorage.getItem("users")) {
-      users = JSON.parse(localStorage.getItem("users"));
-    }
-    return users;
-  }
 }
